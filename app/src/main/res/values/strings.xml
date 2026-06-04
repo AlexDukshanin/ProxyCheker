@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ProxyCheker</string>
+    <string name="app_about_title">Что делает ProxyCheker</string>
+    <string name="app_about_body">Это минималистичный MTProto-чекер для Telegram. Кнопка MTProto Check загружает MTProto-прокси из открытых GitHub-источников RU, EU и World, затем оставляет только рабочие и сортирует их по пингу. Списки прокси обновляются примерно каждые 12 часов из открытого источника на GitHub. Создатель приложения не несет ответственности за надежность, безопасность и доступность этих прокси.</string>
+    <string name="help_symbol">?</string>
+    <string name="close">Закрыть</string>
+    <string name="mtproto_check">MTProto Check</string>
+    <string name="clear">Очистить</string>
+    <string name="open_proxy">Открыть</string>
+    <string name="expand">Показать</string>
+    <string name="collapse">Скрыть</string>
+    <string name="loading_tg_status">Загрузка MTProto-прокси...</string>
+    <string name="loading_wait">Ожидание загрузки</string>
+    <string name="empty_state_hint">Список пуст. Нажми MTProto Check.</string>
+    <string name="empty_download_result">Источники загрузились, но список оказался пустым.</string>
+    <string name="no_working_proxies">Рабочие прокси не найдены.</string>
+    <string name="checking_progress">Проверено %1$d из %2$d</string>
+    <string name="clear_success">Локальный файл удалён. Экран очищен.</string>
+    <string name="no_proxy_handler">На устройстве нет приложения для открытия ссылки.</string>
+    <string name="telegram_accessibility_required">Для Check TG включи сервис доступа ProxyCheker в настройках специальных возможностей.</string>
+    <string name="telegram_check_start_failed">Не удалось запустить автоматическую проверку Telegram.</string>
+    <string name="telegram_automation_description">Автоматически открывает MTProto proxy links в Telegram, пытается нажать кнопки проверки и возвращает результат в ProxyCheker.</string>
+
+    <plurals name="proxies_loaded">
+        <item quantity="one">Загружен %d прокси.</item>
+        <item quantity="few">Загружено %d прокси.</item>
+        <item quantity="many">Загружено %d прокси.</item>
+        <item quantity="other">Загружено %d прокси.</item>
+    </plurals>
+
+    <plurals name="proxies_in_list">
+        <item quantity="one">В списке %d прокси</item>
+        <item quantity="few">В списке %d прокси</item>
+        <item quantity="many">В списке %d прокси</item>
+        <item quantity="other">В списке %d прокси</item>
+    </plurals>
+
+    <plurals name="checking_status">
+        <item quantity="one">Проверка: %1$d из %2$d</item>
+        <item quantity="few">Проверка: %1$d из %2$d</item>
+        <item quantity="many">Проверка: %1$d из %2$d</item>
+        <item quantity="other">Проверка: %1$d из %2$d</item>
+    </plurals>
+
+    <plurals name="working_proxies_left">
+        <item quantity="one">Оставлен %1$d рабочий прокси из %2$d.</item>
+        <item quantity="few">Оставлено %1$d рабочих прокси из %2$d.</item>
+        <item quantity="many">Оставлено %1$d рабочих прокси из %2$d.</item>
+        <item quantity="other">Оставлено %1$d рабочих прокси из %2$d.</item>
+    </plurals>
+</resources>
